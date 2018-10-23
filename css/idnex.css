@@ -1,0 +1,139 @@
+html,body{
+    height: 100%;
+    background: #0f0f0f;
+}
+
+/*导航栏部分*/
+.navbar-brand{
+    font-family: sans-serif;
+    font-style: italic;
+}
+#search-area{
+    background-color: #3c3c3c;
+    height: 30px;
+    border: none;
+    color: #adadad;
+}
+.navbar-form{
+    position: relative;
+}
+
+/*
+@media all and (min-width: 961px) and (max-width: 1200px) {
+    #navbarright{
+        display: none !important;
+    }
+}
+*/
+
+@media(max-width:960px ) {
+    .navbar-form{
+        position: relative;
+    }
+    #search-btn {
+        position: absolute;
+        right: 20px;
+        bottom: 6px;
+    }
+}
+
+#search-btn{
+    position: absolute;
+    background: none;
+    color: #adadad;
+    border: none;
+    right: 20px;
+    top: 5px;
+}
+#main{
+    margin-top: 30px;
+}
+.dropdown-menu{
+    background: #2f2f2f;
+}
+.dropdown-menu>li>a{
+    color: #dff0d8;
+}
+.dropdown-menu>li>a:hover{
+    background: #282c34;
+    color: #dff0d8;
+}
+
+/*fullpage部分*/
+.section{
+    position: relative;
+    height: 100%;
+}
+
+#hello{
+    text-align: center;
+    color: #dff0d8;
+    font-family: 幼圆;
+}
+
+.anm{
+    display: none;
+}
+.section-text1 h1{
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    color: white;
+}
+.section-text1 p{
+    position: absolute;
+    right: 30px;
+    top: 140px;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.section-text2 h1{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    color: white;
+}
+.section-text2 p{
+    position: absolute;
+    left: 30px;
+    top: 140px;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+
+
+
+#sayhello{
+    padding-top: 30px;
+    margin-top:50px;
+}
+.background1{
+    background: url("../img/section1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background2{
+    background: url("../img/section2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background3{
+    background: url("../img/section3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background4{
+    background: url("../img/section4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background5{
+    background: url("../img/section5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

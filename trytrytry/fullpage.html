@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fullpage</title>
+    <link rel="stylesheet" href="fullpagecss/fullpage.css">
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="fullpagejquery/easyui.js"></script>
+    <script src="fullpagejquery/jquery.fullpage.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .background1{
+            background-color: #2b542c;
+        }
+        .background2{
+            background-color: #1b6d85;
+        }
+        .background3{
+            background-color: #3c3c3c;
+        }
+        .background4{
+            background-color: #3e8f3e;
+        }
+        .background5{
+            background-color: #8a6d3b;
+        }
+    </style>
+</head>
+<body>
+    <div class="fullpage">
+        <div class="section background2">section1</div>
+        <div class="section background3">section2
+            <div class="slide background1">section2的第1屏</div>
+            <div class="slide background2">section2的第2屏</div>
+            <div class="slide background3">section2的第3屏</div>
+            <div class="slide background4">section2的第4屏</div>
+        </div>
+        <div class="section background5">section3</div>
+        <div class="section background4">section4</div>
+    </div>
+</body>
+<script>
+    $(function () {
+        //code;
+        $('.fullpage').fullpage();
+})
+</script>
+</html>

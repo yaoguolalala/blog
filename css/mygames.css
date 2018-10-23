@@ -1,0 +1,171 @@
+html,body{
+    height: 100%;
+}
+.navbar-brand{
+    font-family: sans-serif;
+    font-style: italic;
+}
+#search-area{
+    background-color: #3c3c3c;
+    height: 30px;
+    border: none;
+    color: #adadad;
+}
+.navbar-form{
+    position: relative;
+}
+
+/*
+@media all and (min-width: 961px) and (max-width: 1200px) {
+    #navbarright{
+        display: none !important;
+    }
+}
+*/
+
+@media(max-width:960px ) {
+    .navbar-form{
+        position: relative;
+    }
+    #search-btn {
+        position: absolute;
+        right: 20px;
+        bottom: 6px;
+    }
+}
+
+#search-btn{
+    position: absolute;
+    background: none;
+    color: #adadad;
+    border: none;
+    right: 20px;
+    top: 5px;
+}
+#main{
+    margin-top: 30px;
+}
+.dropdown-menu{
+    background: #2f2f2f;
+}
+.dropdown-menu>li>a{
+    color: #dff0d8;
+}
+.dropdown-menu>li>a:hover{
+    background: #282c34;
+    color: #dff0d8;
+}
+
+
+body{
+    background-image: url("../img/overwatch.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#main{
+    margin-top: 50px;
+}
+#hello{
+    font-family: 幼圆;
+    color: #cccccc;
+}
+.card{
+    width: 200px;
+    height: 270px;
+    background: #faf2cc;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+.card-head{
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.card-head img{
+    width: 200px;
+}
+.card-text{
+    width: 200px;
+    height: 120px;
+}
+.card-btn{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.card-btn .btn-primary{
+    bottom: 6px;
+    right: 20px;
+    position: absolute;
+    border: none;
+}
+.card-text{
+    width: 90%;
+    margin: 0 auto;
+}
+.sign{
+    font-size: 13px;
+    line-height: 15px;
+    font-style: italic;
+    color: #555555;
+}
+.card-text>h5,.card-text p{
+    line-height: 14px;
+}
+.maskmask{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(60,63,65,0.8);
+    z-index:2;
+}
+
+.gameimg>img{
+    width: 500px;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.bigcard{
+    position: relative;
+    margin: 80px auto 0 auto;
+    border-radius: 8px;
+    width: 500px;
+    height:650px;
+    background: white;
+}
+.out{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.out>button{
+    color:darkred;
+}
+.gametitle{
+    margin-left:20px;
+
+}
+.gametext{
+    line-height: 30px;
+    margin-left: 20px;
+    height: 200px;
+    overflow: scroll;
+    overflow-x: auto;
+}
+.gametext>p{
+    line-height: 50px;
+}
+.gamebaike a{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}

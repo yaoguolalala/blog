@@ -1,0 +1,126 @@
+html,body{
+    height: 100%;
+    background-image: url("../img/picture.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*导航栏部分*/
+.navbar-brand{
+    font-family: sans-serif;
+    font-style: italic;
+}
+#search-area{
+    background-color: #3c3c3c;
+    height: 30px;
+    border: none;
+    color: #adadad;
+}
+.navbar-form{
+    position: relative;
+}
+
+/*
+@media all and (min-width: 961px) and (max-width: 1200px) {
+    #navbarright{
+        display: none !important;
+    }
+}
+*/
+
+
+@media(max-width:960px ) {
+    .navbar-form{
+        position: relative;
+    }
+    #search-btn {
+        position: absolute;
+        right: 20px;
+        bottom: 6px;
+    }
+}
+
+#search-btn{
+    position: absolute;
+    background: none;
+    color: #adadad;
+    border: none;
+    right: 20px;
+    top: 5px;
+}
+#main{
+    margin-top: 30px;
+}
+.dropdown-menu{
+    background: #2f2f2f;
+}
+.dropdown-menu>li>a{
+    color: #dff0d8;
+}
+.dropdown-menu>li>a:hover{
+    background: #282c34;
+    color: #dff0d8;
+}
+
+.waterfall{
+    margin-top: 80px;
+    column-count: 6;
+    column-gap: 8px;
+}
+@media (max-width: 1200px){
+    .waterfall {
+        column-count: 5;
+    }
+}
+@media (max-width: 992px){
+    .waterfall {
+        column-count: 5;
+        margin-top: 80px;
+    }
+}
+@media (max-width: 768px){
+    .waterfall {
+        column-count: 4;
+        margin-top: 80px;
+    }
+}
+@media (max-width: 768px){
+    .waterfall {
+        column-count: 3;
+        margin-top: 80px;
+    }
+}
+
+
+.item{
+    position: relative;
+    margin: 0 0 10px 0;
+    -moz-page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.item img{
+    width: 100%;
+}
+
+.pic-operation{
+    display: none;
+    width: 100%;
+    background: rgba(24, 34, 47, 0.99);
+    opacity: 0.5;
+    position: absolute;
+    bottom: 2px;
+
+}
+.pic-operation a{
+    line-height: 30px;
+    color: #f9f2f4;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+}
+.pic-operation a:hover{
+    color: white;
+}
